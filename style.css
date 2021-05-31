@@ -1,0 +1,34 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  color: yellow;
+  background-color: rgb(18, 76, 122);
+  text-align: center;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+h1 {
+  font-size: 3rem;
+}
+p,
+label {
+  font-size: 2rem;
+}
+label {
+  display: block;
+  margin-bottom: 2em;
+}
+textarea {
+  width: 80%;
+  min-height: 500px;
+  font-size: 1.625rem;
+  padding: 0.5em 1em;
+}
+textarea:focus-visible {
+  outline-color: yellow;
+}
